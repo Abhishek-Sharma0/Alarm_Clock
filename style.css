@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:50px;
+}
+
+
+
+body {
+    content: "";
+    border: #a30808;
+    border-radius: 30px;
+    background: url("https://images.unsplash.com/photo-1549675584-c22bde15df72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80");
+    background-size:  cover;
+    background-position: center top;
+    height: 70%;
+    width: 90%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* border: 8px solid lightgreen;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background: url('https://www.goodfreephotos.com/albums/other-photos/angel-entering-heaven-with-light.jpg'); */
+}
+
+#clock {
+    height:120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: white;
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+  color: white;
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    width: 21%;
+    height: 15%;
+    float: left;
+    background-color: lightgreen;
+    margin-top: 40px;
+    margin-left: 10%;
+    border: #052413;
+    border-radius: 50%;
+}
+#clearButton {
+    width: 21%;
+    height: 15%;
+    float: right;
+    background-color: red;
+    margin-top: 40px;
+    border: #1b0a3e;
+    border-radius: 10%;
+}
+
+
+
